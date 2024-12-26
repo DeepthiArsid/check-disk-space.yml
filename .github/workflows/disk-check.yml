@@ -4,5 +4,5 @@
   runs-on: self-hosted
     - name: checkout repository
       steps: 
-    - name: Check disk space 
-      run: df -h /
+        - name: Check disk space 
+          run: df -h /
